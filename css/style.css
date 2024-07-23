@@ -44,7 +44,7 @@ body {
   .container a {
     list-style: none;
     text-decoration: none;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin-top: .7rem;
     margin-bottom: 1rem;
     font-weight: 800;
@@ -67,3 +67,39 @@ body {
   .profile h3 {
     font-size: 1.4rem;
     font-weight: 800; }
+
+.attribution {
+  padding: 1rem;
+  font-size: 11px;
+  text-align: center;
+  margin: 0 auto; }
+
+.attribution a {
+  color: #3e52a3; }
+
+@media only screen and (max-width: 1138px) {
+  html {
+    font-size: 50%; } }
+
+@media only screen and (max-width: 963px) {
+  html {
+    font-size: 40%; }
+  a {
+    font-size: .7rem; } }
+
+@media only screen and (max-width: 765px) {
+  html {
+    font-size: 32%; }
+  a {
+    font-size: .5rem; } }
+
+@media only screen and (max-width: 580px) {
+  html {
+    font-size: 24%; } }
+
+@media only screen and (max-width: 438px) {
+  html {
+    font-size: 19%; }
+  .container {
+    width: 27%;
+    box-shadow: 3px 3px; } }
