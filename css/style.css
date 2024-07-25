@@ -21,7 +21,11 @@ body {
   box-shadow: 5px 5px; }
   .container .img-main {
     border-radius: 1rem;
-    width: 20%; }
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    width: 90%;
+    display: block; }
   .container .blog-text {
     padding: 1.5rem; }
   .container .yellow-txt {
